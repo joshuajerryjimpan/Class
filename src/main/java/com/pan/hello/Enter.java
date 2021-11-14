@@ -8,9 +8,9 @@ public class Enter {
         System.out.println(age);
         float weight = 49.5f;
         System.out.println(weight);
-        char grading = 'B';
+        char grading = '8';
         System.out.println(grading);
-        byte b = 127;
+        byte b =  127;
         System.out.println(b);
         char lastName = '潘';
         System.out.println(lastName);

@@ -1,10 +1,14 @@
 package com.pan.stars;
 
-public class Star1 {
+public class Star6 {
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++){
             for (int j = 0; j < 20; j++){
-                System.out.print("*");
+                if (2*i == 19-j){
+                    System.out.print("*");
+                }else {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }

@@ -3,7 +3,7 @@ package com.pan.guessnumber;
 import java.util.Random;
 import java.util.Scanner;
 
-public class While {
+public class WhileAgain {
     public static void main(String[] args) {
         Random random = new Random();
         int secret = random.nextInt(11);
@@ -17,7 +17,7 @@ public class While {
                 System.out.println("Bigger");
             }else if (num == secret){
                 System.out.println("Bingo");
-                break;
+                endGame = false;
             }else {
                 System.out.println("Smaller");
             }

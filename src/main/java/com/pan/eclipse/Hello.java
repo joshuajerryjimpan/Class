@@ -16,18 +16,18 @@ public class Hello {
 
         String name = "Joshua";
         System.out.println(name);
-        Random x = new Random(10);
-        Random y = new Random(10);
+        Random x = new Random();
+        Random y = new Random();
         int r1 = x.nextInt();
         int r2 = y.nextInt();
-        System.out.println(r1);
-        System.out.println(r2);
+        System.out.println("x:"+r1);
+        System.out.println("y:"+r2);
 
         Random g = new Random();
         float f = g.nextInt(100);
-        int i = g.nextInt(100);
+        int h = g.nextInt(100);
         System.out.println(g);
         System.out.println(f);
-        System.out.println(i);
+        System.out.println(h);
     }
 }

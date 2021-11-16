@@ -1,6 +1,5 @@
 package com.pan.stars;
 
-import jdk.swing.interop.SwingInterOpUtils;
 
 public class Star2 {
     public static void main(String[] args) {
